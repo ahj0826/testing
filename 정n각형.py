@@ -14,7 +14,7 @@ angle = 180 - ((180*(n-2))/n)
 위의 논리에 따라 내각합은 180*(n-2)의 일반항을 가지고,
 따라서 각각의 외각은 (180-(180*(n-2)/n))을 일반항으로 가진다.
 """
-for i in range(0,n+1) :
+for i in range(1,n+1) :
     t.forward(length)
     t.left(angle)
 
